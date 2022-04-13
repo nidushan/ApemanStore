@@ -1,0 +1,352 @@
+/* Extra small devices (portrait phones, less than 576px) */ 
+@media(min-width: 320px) and (max-width: 575px) {    
+    .navbar-light .navbar-toggler{
+        border-color: transparent;
+    }
+    .navbar-light .navbar-toggler:focus{
+        outline: inherit;
+    }
+    .navbar-light .navbar-toggler span{
+        font-size: 30px;
+        color: #345DED;
+    }
+    .header_section .navbar-nav .nav-item .nav-link{
+        margin: 0;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .header_section .form-inline{
+        width: 100%;
+    }
+    .header_section .form-inline button{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    br{
+        display: none;
+    }
+    .hero_txt{
+        padding-top: 30px;
+    }
+    .hero_txt .btn_custom_2,
+    .hero_txt .btn_custom{
+        padding: 6px 12px;
+    }
+    .hero_txt h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .hero_txt p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .header_section .form-inline a {
+        display: block;
+        margin: 0 auto;
+    }
+    .payment_method_wrap,
+    .feat_btm_img{
+         flex-wrap: wrap;
+    }
+    .payment_method_wrap a,
+    .feat_btm_img a{
+         flex: 50%;
+    }
+    .feat_btm_img img{
+         width: 70%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .feat_btm_img a:nth-child(6) img{
+         width: 80px;
+    }
+    .join_telegram_wrap h3{
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+    .replacement_txt h2,
+    .feat_head_txt h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .join_telegram_wrap a,
+    .payment_method_wrap,
+    .payment_method_wrap_2,
+    .replacement_txt p{
+        width: 100%;
+    }
+    .payment_method_wrap a img{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .review_box{
+        margin-bottom: 25px;
+    }
+    .join_telegram_wrap{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+    .ftr_link{
+        margin-bottom: 20px;
+    }
+    .ftr_copy,
+    .ftr_btm_social{
+        text-align: center!important;
+    }
+    .back-top-btn{
+        background: transparent;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767px) {
+      .navbar-light .navbar-toggler{
+        border-color: transparent;
+    }
+    .navbar-light .navbar-toggler:focus{
+        outline: inherit;
+    }
+    .navbar-light .navbar-toggler span{
+        font-size: 30px;
+        color: #345DED;
+    }
+    .header_section .navbar-nav .nav-item .nav-link{
+        margin: 0;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .header_section .form-inline{
+        width: 100%;
+    }
+    .header_section .form-inline button{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    br{
+        display: none;
+    }
+    .hero_txt{
+        padding-top: 30px;
+    }
+    .hero_txt .btn_custom_2,
+    .hero_txt .btn_custom{
+        padding: 6px 12px;
+    }
+    .hero_txt h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .hero_txt p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .header_section .form-inline a {
+        display: block;
+        margin: 0 auto;
+    }
+    .payment_method_wrap,
+    .feat_btm_img{
+         flex-wrap: wrap;
+    }
+    .payment_method_wrap a,
+    .feat_btm_img a{
+         flex: 50%;
+    }
+    .feat_btm_img img{
+         width: 70%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .feat_btm_img a:nth-child(6) img{
+         width: 80px;
+    }
+    .join_telegram_wrap h3{
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+    .replacement_txt h2,
+    .feat_head_txt h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .join_telegram_wrap a,
+    .payment_method_wrap,
+    .payment_method_wrap_2,
+    .replacement_txt p{
+        width: 100%;
+    }
+    .payment_method_wrap a img{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .review_box{
+        margin-bottom: 25px;
+    }
+    .join_telegram_wrap{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+    .ftr_link{
+        margin-bottom: 20px;
+    }
+    .ftr_copy,
+    .ftr_btm_social{
+        text-align: center!important;
+    }
+    .back-top-btn{
+        background: transparent;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-light .navbar-toggler{
+        border-color: transparent;
+    }
+    .navbar-light .navbar-toggler:focus{
+        outline: inherit;
+    }
+    .navbar-light .navbar-toggler span{
+        font-size: 30px;
+        color: #345DED;
+    }
+    .header_section .navbar-nav .nav-item .nav-link{
+        margin: 0;
+        margin-top: 5px;
+        text-align: center;
+    }
+    .header_section .form-inline{
+        width: 100%;
+    }
+    .header_section .form-inline button{
+        width: 100%;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    br{
+        display: none;
+    }
+    .hero_txt{
+        padding-top: 30px;
+    }
+    .hero_txt .btn_custom_2,
+    .hero_txt .btn_custom{
+        padding: 6px 12px;
+    }
+    .hero_txt h2{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .hero_txt p{
+        font-size: 15px;
+        line-height: 22px;
+    }
+    .header_section .form-inline a {
+        display: block;
+        margin: 0 auto;
+    }
+    .payment_method_wrap,
+    .feat_btm_img{
+         flex-wrap: wrap;
+    }
+    .payment_method_wrap a,
+    .feat_btm_img a{
+         flex: 50%;
+    }
+    .feat_btm_img img{
+         width: 70%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .feat_btm_img a:nth-child(6) img{
+         width: 80px;
+    }
+    .join_telegram_wrap h3{
+        font-size: 26px;
+        line-height: 32px;
+        margin-bottom: 25px;
+    }
+    .replacement_txt h2,
+    .feat_head_txt h2{
+        font-size: 32px;
+        line-height: 40px;
+    }
+    .join_telegram_wrap a,
+    .payment_method_wrap,
+    .payment_method_wrap_2,
+    .replacement_txt p{
+        width: 100%;
+    }
+    .payment_method_wrap a img{
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+    }
+    .review_box{
+        margin-bottom: 25px;
+    }
+    .join_telegram_wrap{
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+    }
+    .ftr_link{
+        margin-bottom: 20px;
+    }
+    .ftr_copy,
+    .ftr_btm_social{
+        text-align: center!important;
+    }
+    .back-top-btn{
+        background: transparent;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199px) {
+       
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1300px) {
+    .hero_section{
+        padding-bottom: 100px;
+    }
+}
+@media (min-width: 1400px) {
+    .hero_section{
+        padding-bottom: 140px;
+    }
+}
+@media (min-width: 1500px) {
+    .hero_section{
+        padding-bottom: 170px;
+    }
+}
+@media (min-width: 1600px) {
+    .hero_section{
+        padding-bottom: 190px;
+    }
+}
+@media (min-width: 1700px) {
+    .hero_section{
+        padding-bottom: 220px;
+    }
+}

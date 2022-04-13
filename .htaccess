@@ -1,0 +1,16 @@
+RewriteEngine on
+
+# Remove .html (or htm) from visible URL (permanent redirect)
+RewriteCond %{REQUEST_URI} ^/(.+)\.html?$ [nocase]
+RewriteRule ^ /%1 [L,R=301]
+
+# Quietly point back to the HTML file (temporary/undefined redirect):
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^ %{REQUEST_URI}.html [END]
+
+ErrorDocument 400 https://store.apeman.us/external452e.html
+ErrorDocument 401 https://store.apeman.us/external452e.html
+ErrorDocument 403 https://store.apeman.us/external452e.html
+ErrorDocument 404 https://store.apeman.us/external452e.html
+ErrorDocument 503 https://store.apeman.us/external452e.html

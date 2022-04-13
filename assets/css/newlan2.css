@@ -1,0 +1,54 @@
+/* all fonts link start */
+@font-face{
+	font-family: Norms-ExtraBold;
+	src: url(../fonts/norms/ExtraBold.otf);
+}
+@font-face{
+	font-family: Norms-Bold;
+	src: url(../fonts/norms/Bold.otf);
+}
+@font-face{
+	font-family: Norms-Medium;
+	src: url(../fonts/norms/Medium.otf);
+}
+@font-face{
+	font-family: Norms-Regular;
+	src: url(../fonts/norms/Regular.otf);
+}
+/* all fonts link end */
+/* pay css start */
+.pay_head{
+    text-align: center;
+}
+.pay_head h5{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 7.98402px;
+    color: #345DED;
+    font-family: Norms-Medium;
+    margin-bottom: 30px;
+}
+.payment_method_wrap{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    -ms-align-items: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.payment_method_wrap a img{
+    width: 190px;
+    display: inline-block;
+    margin-top: 25px;
+}
+.payment_method_wrap_2{
+    width: 60%;
+}
+/* pay css end */
